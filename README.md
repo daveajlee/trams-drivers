@@ -7,7 +7,7 @@ This microservice for the TraMS platform stores driver information through REST 
 2. Create an executable jar using mvn clean install.
 3. Run the jar (for example in production mode): java -Dspring.profiles.active=production -jar trams-drivers.jar
 
-**How to use the integrated Admin Client and Swagger **
+**How to use the integrated Admin Client and Swagger**
 
 The microservice comes with an integrated admin client which allows you to create and view driver information. This admin interface is available at https://your-domain/trams-drivers/admin/ The initial username and password is admin/admin.
 
@@ -19,4 +19,5 @@ You can save and view data to trams-drivers through any language by calling the 
 * production - This profile uses Eureka for service discovery and can be configured to use a database.
 
 **Acknowledgements**
+
 The example from Roland Krüger on implementing Vaadin with Spring Security (https://github.com/rolandkrueger/vaadin-by-example/tree/master/en/architecture/SpringBootSecurity) was very helpful for implementing the security part of the admin client and part of the code is based on this example.
