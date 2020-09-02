@@ -1,4 +1,7 @@
 # trams-drivers
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/08afaa7968884afba9d374173670f9f8)](https://app.codacy.com/manual/dave_33/trams-drivers?utm_source=github.com&utm_medium=referral&utm_content=daveajlee/trams-drivers&utm_campaign=Badge_Grade_Dashboard)
+
 This microservice for the TraMS platform stores driver information through REST and displays it to authorised individuals through a web client.
 
 ##How to use
