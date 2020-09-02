@@ -28,19 +28,19 @@ public class DriverEditorForm extends VerticalLayout {
     private Driver selectedDriver;
 
     /* Fields to edit properties in Driver entity */
-    TextField name = new TextField("Name");
-    TextField company = new TextField("Company");
-    DateField dateOfBirth = new DateField("Date of Birth");
-    TextField contractedHours = new TextField("Contracted Hours");
-    TextField hourlyWage = new TextField("Hourly Wage");
-    DateField startDate = new DateField("Start Date");
-    TextField skills = new TextField("Skills");
+    private TextField name = new TextField("Name");
+    private TextField company = new TextField("Company");
+    private DateField dateOfBirth = new DateField("Date of Birth");
+    private TextField contractedHours = new TextField("Contracted Hours");
+    private TextField hourlyWage = new TextField("Hourly Wage");
+    private DateField startDate = new DateField("Start Date");
+    private TextField skills = new TextField("Skills");
 
     /* Action buttons */
-    Button save = new Button("Save", FontAwesome.SAVE);
-    Button cancel = new Button("Cancel");
-    Button delete = new Button("Delete", FontAwesome.TRASH_O);
-    CssLayout actions = new CssLayout(save, cancel, delete);
+    private Button save = new Button("Save", FontAwesome.SAVE);
+    private Button cancel = new Button("Cancel");
+    private Button delete = new Button("Delete", FontAwesome.TRASH_O);
+    private CssLayout actions = new CssLayout(save, cancel, delete);
 
     @Autowired
     /**

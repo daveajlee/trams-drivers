@@ -15,8 +15,6 @@ import de.davelee.trams.drivers.admin.ui.events.NavigationEvent;
 import de.davelee.trams.drivers.admin.ui.security.SecurityErrorHandler;
 import de.davelee.trams.drivers.admin.ui.security.ViewAccessDecisionManager;
 import de.davelee.trams.drivers.admin.ui.views.ErrorView;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -35,7 +33,6 @@ import javax.servlet.ServletException;
  */
 public class DriverApplicationUI extends UI {
 
-    private static final Logger LOG = LoggerFactory.getLogger(DriverApplicationUI.class);
     private static final VaadinUIService uiService = new VaadinUIService();
 
     @Autowired

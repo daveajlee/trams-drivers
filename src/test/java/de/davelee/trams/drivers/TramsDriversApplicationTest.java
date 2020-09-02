@@ -24,7 +24,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class TramsDriversApplicationTest {
 
     @LocalServerPort
-    int port;
+    private int port;
 
     @Before
     /**

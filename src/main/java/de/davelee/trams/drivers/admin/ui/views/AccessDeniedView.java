@@ -35,6 +35,7 @@ public class AccessDeniedView extends AbstractView  {
      * @param event a <code>ViewChangeEvent</code> object which will be ignored.
      */
     public void enter(ViewChangeListener.ViewChangeEvent event) {
+        //Do nothing.
     }
 
 }

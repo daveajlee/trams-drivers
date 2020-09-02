@@ -4,7 +4,6 @@ import de.davelee.trams.drivers.data.Driver;
 import de.davelee.trams.drivers.data.DriverHistory;
 import de.davelee.trams.drivers.data.DriverStatus;
 import de.davelee.trams.drivers.repository.DriverRepository;
-import org.apache.tomcat.jni.Local;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
