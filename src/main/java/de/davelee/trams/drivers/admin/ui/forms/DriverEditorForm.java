@@ -84,7 +84,7 @@ public class DriverEditorForm extends VerticalLayout {
         final boolean persisted = driver.getId() != null;
         if (persisted) {
             // Find fresh entity for editing
-            selectedDriver = repository.findOne(driver.getId());
+            selectedDriver = repository.findByDateOfBirthAndNameAndCompany(driver.getDateOfBirth(), driver.getName(), driver.getCompany());
         }
         else {
             selectedDriver = driver;
