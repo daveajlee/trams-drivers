@@ -10,9 +10,9 @@
 	<name>TraMS Platform - Driver Management</name>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.3.RELEASE</version>
+		<groupId>de.davelee</groupId>
+		<artifactId>ci-springboot-parent-pom</artifactId>
+		<version>1.1.0</version>
 	</parent>
 
 	<properties>
@@ -108,6 +108,12 @@
 			<groupId>javax.interceptor</groupId>
 			<artifactId>javax.interceptor-api</artifactId>
 			<version>1.2.1</version>
+		</dependency>
+		<!-- This dependency allows compatibility with Java 11 through missing Java EE dependencies -->
+		<dependency>
+			<groupId>jakarta.xml.bind</groupId>
+			<artifactId>jakarta.xml.bind-api</artifactId>
+			<version>2.3.2</version>
 		</dependency>
 	</dependencies>
 
